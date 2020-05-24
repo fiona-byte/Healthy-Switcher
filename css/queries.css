@@ -1,0 +1,264 @@
+
+/*        Screen from 1024px and above    */
+
+@media only screen and (max-width: 1200px) {
+    .bg-text {
+        width: 90%;
+        padding:0 2%;
+    }
+    
+    .bg-heading {
+        margin: 12px 0;
+    }
+    
+    .bg-subtext {
+        width: 60%;
+    }
+
+    .row { padding: 0 4%; }
+}
+
+/*        Screen from 768px to 1023px    */
+
+@media only screen and (max-width: 1023px) {
+    body { font-size: 1rem; }
+    section{ padding: 30px; }
+    .bg-subtext {
+        width: 80%;
+    }
+
+    .bg-heading { font-size: 2.5rem; }
+
+    .about .about-box {
+        width: 70%;
+        margin-left: 15%;
+        height: 480px;
+    }
+
+    .about-box p {
+        font-size: 70%;
+        width: 90%;
+        line-height: 170%;
+    }
+
+    .row{ padding: 0 4%; }
+    .box-grey,
+    .box-green {
+        height: 185px;
+        margin-right: 30px;
+        width: 60%;
+    }
+
+    .how-it-works .col {
+        width: 30%;
+        height: 180px;
+        margin-left: 15%
+    }
+
+    .social .col {
+        width: 40%;
+    }
+
+    .box-grey p,
+    .box-green p, h4 {
+        line-height: 130%;
+        width: 80%;
+        margin: 20px auto 0;
+    }
+
+    .dishes .col {
+        width: 35%;
+        margin-left: 15%;
+    }
+
+    .box { width: 90%; }
+
+    .recipe .col, 
+    .recipe .col {
+        width: 95%;
+    }
+
+    .image {
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/recipe-img1.png);
+        background-size: cover;
+        background-position: center;
+        height: 380px;
+        border-radius: 6px;
+        width: 50%;
+    }
+
+    .social .col,
+    .social .col {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+}
+
+/*        Screen from 481px to 767px    */
+
+@media only screen and (max-width: 767px) {
+
+    .col {width: 90%; }
+    section{ padding: 20px; }
+    .bg-subtext {
+        width: 100%;
+        font-size: 80%;
+    }
+
+    .bg-heading { 
+        margin: 8px 0;
+        letter-spacing: 0.1em;
+        font-size: 1.7rem; 
+    }
+
+    .bg-text {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+    }
+
+    .features {
+        position: absolute;
+        top: 70%;
+        left: 25%;
+        right: 25%;
+    }
+
+    .nav-brand {
+        font-size: 60%;
+        float: left;
+    }
+
+    .nav-items { display: none;}
+    header::after { margin-top: 15px;}
+
+    .toggle-icon {
+        display: inline-block;
+    }
+
+    .nav-items{ 
+        float: left;
+        margin: 65px 0 0 20px; 
+        background: #34c759;
+    }
+    .nav-items li { display: block;}
+    .nav-items li a:link,
+    .nav-items li a:visited {
+        display: block;
+        padding: 10px 0;
+        font-size: 90%;
+    }
+    
+    .features p,
+    .chef p { font-size: 80%; }
+    
+    .feat-icon { font-size: 100%; }
+
+    .how-it-works .col {
+        width: 50%;
+        height: 160px;
+        margin-left: 25%
+    }
+
+    .dishes .col,
+    .social .col {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .about .about-box {
+        width: 80%;
+        margin: auto;
+        height: auto;
+        z-index: 999;
+    }
+
+    .about-box p {
+        font-size: 85%;
+        width: 90%;
+        line-height: 150%;
+    }
+    
+    .about img {
+        width: 70%;
+        margin-left: 15%;
+        padding-bottom: 20px;
+    }
+
+    .box-grey,
+    .box-green {
+        height: 200px;
+        margin-right: 30px;
+        width: 40%;
+        margin-bottom: 30px;
+    }
+
+    .box-grey p,
+    .box-green p {
+        font-size: 70%;
+    }
+
+    .box { 
+        margin-bottom: 20px;
+        width: 00%;
+        margin-left: 5%;
+    }
+
+    .box h3 { font-size: 110%; }
+    .box p { font-size: 80%;}
+    .box .btn {
+        margin-left: 100px;
+    }
+
+    .recipe img{ height: auto;}
+    .image h5 {
+        text-transform: uppercase;
+        font-size: 60%;
+        margin-left: 41.5%;
+        width: 17%;
+    }
+    
+    .image h5 {
+        width: 25%;
+    }
+    
+    .image h3 {
+        font-size: 110%;
+        width: 70%;
+        margin: 5% 15% 0;
+        line-height: 160%;
+    }
+    
+    .grey-box h5, 
+    .green-box h5 {
+        font-size: 60%;
+        width: 20%;
+    }
+    
+    /* .grey-box, 
+    .green-box {
+        height: auto;
+        width: auto;
+    } */
+    
+    .grey-box h3, 
+    .green-box h3 {
+        font-size: 80%;
+        line-height: 150%;
+        font-weight: 500;
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .grey-box h5 span, 
+    .green-box h5 span {
+        text-transform: none;
+        margin-left: 10px;
+    }
+}
+
+/*        Small screen from 0 to 480px    */
+@media only screen and (max-width: 480px) {
+
+}
