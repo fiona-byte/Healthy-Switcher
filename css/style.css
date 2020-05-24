@@ -550,12 +550,17 @@ h4:after {
     color: #737373;
     margin-right: 20px;
     height: 30px;
-    padding: 10px;
+    padding: 5px;
     width: 30px;
     border: 2px solid #737373;
     border-radius: 50%;
     text-align: center;
     font-size: 120%;
+}
+
+.social h5 {
+    width: 70%;
+    margin-left: 15%;
 }
 
 .box-grey p {
