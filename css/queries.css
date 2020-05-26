@@ -22,12 +22,15 @@
 
 @media only screen and (max-width: 1023px) {
     body { font-size: 1rem; }
-    section{ padding: 30px; }
-    .bg-subtext {
-        width: 80%;
-    }
-
+    section{ padding: 20px; }
+    .bg-subtext { width: 80%;}
     .bg-heading { font-size: 2.5rem; }
+    .nav-brand {
+        position: absolute;
+        top: 6%;
+        left: 10%;
+        font-size: 60%;
+    }
 
     .about .about-box {
         width: 70%;
@@ -59,19 +62,33 @@
         width: 40%;
     }
 
-    .box-grey p,
-    .box-green p, h4 {
+    .box-grey p, h4 {
         line-height: 130%;
         width: 80%;
-        margin: 20px auto 0;
+        margin: 15px auto 0;
     }
+
+    .box-green p { font-size: 75%;}
 
     .dishes .col {
         width: 35%;
-        margin-left: 15%;
+        margin-left: 10%;
     }
-
+    .box h3 { font-size: 110%;}
+    .box p { font-size: 70%;}
+    .together p { font-size: 65%; }
     .box { width: 90%; }
+    .dishes .feat-icon,
+    .icon { padding-right: 1px;}
+
+    .btn-small:link,
+    .btn-small:visited,
+    .btn-transparent:link,
+    .btn-transparent:visited {
+        padding: 5px 5px;
+        margin-left: 40px;
+        font-size: 60%;
+    }
 
     .recipe .col, 
     .recipe .col {
@@ -87,11 +104,67 @@
         width: 50%;
     }
 
-    .social .col,
+    /* .chef .col {
+        width: 70%;
+        margin-left: 15%;
+    } */
+
     .social .col {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .social h5::before {
+        width: 100%;
+        margin: 20px 0 30px;
+    }
+    
+    .social .box-grey {
+        position: relative;
+    }
+    
+    .social .btn {
+        position: absolute;
+        top: -1%;
+        right: 13%;
+    }
+
+    .social .box-grey,
+    .social .box-green {
+        height: 310px;
         width: 50%;
         margin-left: 25%;
+        margin-bottom: 10px;
     }
+    
+    .instagram-showcase li {
+        display: block;
+        float: left;
+        width: 33%;
+    }
+    
+    .insta-photo {
+        width: 100%;
+        margin: 0;
+        height: auto;
+    }
+    
+    .insta-photo img {
+        width: 100%;
+    }
+
+    .social h5 {
+        padding-left: 37px;
+    }
+
+    .box-grey p {
+        padding: 10px 0;
+        font-size: 80%;
+    }
+    
+    .social h4 { font-size: 70%; }
+    
+    
 
 }
 
@@ -266,5 +339,103 @@
 
 /*        Small screen from 0 to 480px    */
 @media only screen and (max-width: 480px) {
+
+    section{ padding: 10px;}
+    .nav-brand {
+        position: absolute;
+        top: 3.5%;
+        left: 10%;
+        font-size: 70%;
+    }
+    .toggle-icon { margin-top: 20px;}
+    .bg-text {
+        position: absolute;
+        top: 37%;
+    }
+    .bg-text .btn-green { margin-top: 50px;}
+    .bg-heading { margin: 15px 0;}
+    .features {
+        position: absolute;
+        top: 59%;
+    }
+    .features p,
+    .chef p {
+        font-size: 80%;
+    }
+    .feat-icon { margin: 30px 0 10px;}
+    .about h2 { margin-top: 70px;}
+
+    .how-it-works .box-green { height: auto;}
+    .box-green p { margin: 10px 20px 15px;}
+
+    .box .btn {
+        margin: 15px 0 25px 100px;
+        padding: 8px 12px;
+    }
+    .dishes h3 { font-size: 120%;}
+
+    .chef .col {
+        width: 60%;
+        margin-left: 20%;
+        margin-bottom: 30px;
+    }
+    .chef-img { position: relative;}
+    .chef-text {
+        display: inline-block;
+        position: absolute;
+        top: 28%;
+        left: 31%;
+    }
+
+    .image { margin: 0 0 20px 15px;}
+    .image h3 {margin-top: 70px;}
+    .image h5 {margin: 0 auto;}
+    .recipe p {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .grey-box h3,
+    .grey-image-box h3,
+    .green-box h3 {
+        padding: 10px 0;
+        width: 95%;
+        font-size: 85%;
+        margin-left: 15px;
+    }
+    .grey-box h5,
+    .grey-image-box h5,
+    .green-box h5 {
+        margin: 0 10px;
+        width: 17%;
+    }
+    .grey-box,
+    .grey-image-box,
+    .green-box {position: relative;}
+    .date,
+    .grey-image-box p,
+    .grey-box p,
+    .green-box p {
+        font-size: 60%;
+        position: absolute;
+        bottom: 20%;
+        left: 25%;
+    }
+    .grey-box p,
+    .grey-image-box p,
+    .green-box p {
+        font-size: 60%;
+        text-align: right;
+        margin: 0 10px;
+        position: absolute;
+        /* bottom: 5%;  */
+        right: 5%;
+    }
+    /* .recipe .grey-box, 
+    .recipe .green-box {
+        width: 403px;
+        margin: 15px 0;
+    }  */
+
+
 
 }

@@ -7,10 +7,7 @@
 /*          Global Classes           */
 html,
 body {
-    background: url(../images/bg-img.png);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    background: rgba(0, 0, 0, 0.7);
     font-family: 'Open Sans', sans-serif;
     color: #fff;
     font-size: 1.1rem;
@@ -40,7 +37,7 @@ h2:after {
     background: #34c759;
     content: " ";
     width: 60px;
-    margin-top: 30px;
+    margin-top: 50px;
     margin: 0 auto;
 }
 
@@ -56,13 +53,6 @@ p {
 
 section {
     padding: 50px 0;
-}
-
-.box {
-    background: #262626;
-    border-radius: 6px;
-    opacity: 0.8;
-    width: 30%;
 }
 
 /* .beneath {
@@ -97,6 +87,11 @@ section {
     margin-top: 30px;
 }
 
+.btn-green:hover,
+.btn-green:active {
+    background: #10ac37;
+}
+
 .btn-small:link,
 .btn-small:visited,
 .btn-transparent:link, 
@@ -114,6 +109,14 @@ section {
     color: #fff;
 }
 
+.btn-transparent:hover, 
+.btn-transparent:active {
+    background: #34c759;
+    color: #000;
+    border: 1px solid #34c759;
+    transition: color 0.1s;
+}
+
 .overlay-box {
     position: absolute;
     z-index: 999;
@@ -126,6 +129,8 @@ section {
 
 /*         Header Section               */
 header {
+    background: url(../images/bg-img.png);
+    background-position: center;
     height: 100vh;
     color: #fff;
 }
@@ -195,9 +200,13 @@ header::after {
     color: #34c759;
 }
 
+a[title] {
+    color: #34c759; 
+}
+
 .nav-brand,
 .brand {
-    font-size: 55%;
+    font-size: 60%;
     text-transform: uppercase;
     color: #34c759;
     letter-spacing: 0.2em;
@@ -206,7 +215,7 @@ header::after {
 
 .nav-brand {
     position: absolute;
-    top: 4%;
+    top: 6%;
     left: 12%;
 }
 
@@ -250,6 +259,7 @@ header::after {
 }
 
 /*           About Section             */
+
 
 .about .about-box {
     background: #252525;
@@ -336,6 +346,20 @@ h4:after {
     margin: 30px 0;
 }
 
+.btn-small:link,
+.btn-small:visited,
+.btn-transparent:link,
+.btn-transparent:visited {
+    margin-left: 80px;
+}
+
+.box {
+    background: #262626;
+    border-radius: 6px;
+    opacity: 0.8;
+    width: 30%;
+}
+
 .box span {
     letter-spacing: 1.5px;
     font-weight: 700;
@@ -343,13 +367,14 @@ h4:after {
 }
 
 .box h3 {
-    width: 70%;
-    margin-left: 15%;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 100%;
 }
 
 .box p {
-    width: 70%;
-    margin-left: 15%;
+    width: 80%;
+    margin-left: 10%;
     line-height: 140%;
     font-weight: 400;
 }
@@ -366,107 +391,32 @@ h4:after {
 
 /*        Chefs section       */
 
-.cheff h3{
-    position: absolute;
-    top: 0%;
-    left: 30%;
-    font-size: 90%;
-}
-
-.cheff p {
-    position: absolute;
-    top: 47%;
-    left: 30%;
-}
-
-.chef-img img {
-    margin: 0 0 20px 15px;
-}
-
-/*               Recipe Section                   */
-
-.image {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/recipe-img1.png);
-    background-size: cover;
-    background-position: center;
-    height: 440px;
-    border-radius: 6px;
-    margin-top: 17px;
-}
-
-.image h5 {
-    text-transform: uppercase;
-    font-size: 60%;
-    margin-left: 41.5%;
-    width: 17%;
-}
-
-.image h5,
-.grey-box h5,
-.green-box h5 {
-    background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 4px;
-    line-height: 25px;
-    letter-spacing: 1.25px;
-    text-align: center;
-}
-
-.image p {
-    text-transform: capitalize;
-    font-size: 65%;
-    text-align: center;
-    margin-top: 60px;
-    font-weight: 600;
-    width: 17%;
-}
-
-.image h3 {
-    font-size: 110%;
-    width: 50%;
-    margin: 5% 25% 0;
-    line-height: 160%;
-}
-
-.grey-box h5, 
-.green-box h5 {
-    font-size: 50%;
-    width: 15%;
-}
-
-.grey-box, 
-.green-box {
-    height: 130px;
-    opacity: 0.9;
-    border-radius: 6px;
-    margin-bottom: 20px;
-    width: 80%;
-}
-
-.green-box {
-    color: #1a1a1a;
-}
-
-.grey-box h3, 
-.green-box h3 {
-    font-size: 80%;
-    line-height: 150%;
-    font-weight: 500;
+/* .chef .col {
     width: 80%;
     margin-left: 10%;
+    margin-bottom: 30px;
+} */
+
+.chef .col {
+    width: 0 auto;
 }
 
-.grey-box h5, 
-.green-box h5 {
-    font-weight: 500;
-    text-transform: uppercase;
-    /* background: rgba(0, 0, 0, 0.6); */
+.chef-img {
+     position: relative;
 }
 
-.grey-box h5 span, 
-.green-box h5 span {
-    text-transform: none;
-    margin-left: 10px;
+.chef-text {
+    display: inline-block;
+    position: absolute;
+    top: 28%;
+    left: 24%;
 }
+
+/* .chef-dishes img {
+
+} */
+
+/*               Recipe Section                   */
 
 .grey-box {
     background: #252525;
@@ -474,13 +424,138 @@ h4:after {
 
 .green-box {
     background-color: #34c759;
+    color: #1a1a1a;
+}
+
+.image {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/recipe-img1.png);
+    background-size: cover;
+    background-position: center;
+    height: 460px;
+    border-radius: 6px;
+    margin: 17px 0 20px 15px;
+}
+
+.grey-box,
+.grey-image-box, 
+.green-box {
+    height: 135px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+.grey-image-box {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/recipe-img2.png);
+    background-size: cover;
+    background-position: center;
+} 
+
+.image p {
+    font-size: 90%;
+}
+
+.image h3 {
+    font-size: 110%;
+    width: 60%;
+    margin: 5% 25% 0;
+    line-height: 160%;
+    margin-top: 70px;
+}
+
+.image h5 {margin: 0 auto;}
+
+.recipe p {
+    text-align: center;
+    margin-top: 65px;
+}
+
+.grey-box h3,
+.grey-image-box h3,
+.green-box h3 {
+    padding: 25px 0;
+    width: 80%;
+    font-size: 80%;
+    margin-left: 10%;
+    line-height: 140%;
+}
+
+.grey-box h5,
+.grey-image-box h5,
+.green-box h5 {
+    margin: 0 10px;
+    width: 17%;
+}
+.grey-box,
+.grey-image-box,
+.green-box {position: relative;}
+
+.date,
+.grey-box p,
+.green-box p {
+    font-size: 60%;
+    position: absolute;
+    bottom: 20%;
+    left: 25%;
+}
+
+.grey-box p,
+.green-box p {
+    text-align: right;
+    margin: 0 10px;
+    position: absolute;
+    /* bottom: 5%;  */
+    right: 5%;
+}
+
+.grey-image-box .date {
+    position: absolute;
+    bottom: 12%;
+    left: 25%;
+}
+
+.grey-image-box p {
+    text-align: right;
+    margin: 0 10px;
+    position: absolute;
+    bottom: 12%;
+    right: 4%;
+}
+
+.image h5 {
+    font-size: 60%;
+    margin-left: 41.5%;
+    width: 17%;
+}
+
+.image h5,
+.grey-box h5,
+.grey-image-box h5,
+.green-box h5 {
+    border-radius: 4px;
+    font-size: 60%;
+    line-height: 25px;
+    letter-spacing: 1.25px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.image h5,
+.grey-box h5,
+.grey-image-box h5 {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.green-box h5 {
+    background-color: #000;
+    color: #fff;
 }
 
 /*              Social Section              */
 
 .social .box-grey,
 .social .box-green {
-    height: 310px;
+    height: 270px;
     opacity: 0.9;
     border-radius: 6px;
     width: 27%;
@@ -508,6 +583,11 @@ h4:after {
     width: 100%;
 }
 
+.insta-photo img:hover {
+    opacity: 1;
+    transform: scale(1.03);
+}
+
 /* h2 .beneath {
     color: rgba(180, 180, 180, 0.4);
     font-size: 240%;
@@ -527,13 +607,13 @@ h4:after {
     color: #fff;
 } */
 
-.social h5::before {
-    display: block;
-    height: 2px;
-    content: " ";
+
+hr {
+    height: 1px;
     width: 100%;
     background: #303030;
-    margin-bottom: 30px;
+    margin: 2px 0 10px;
+    opacity: 0.5;
 }
 
 .social .box-grey {
@@ -548,14 +628,15 @@ h4:after {
 
 .social-icon {
     color: #737373;
-    margin-right: 20px;
-    height: 30px;
-    padding: 5px;
-    width: 30px;
-    border: 2px solid #737373;
-    border-radius: 50%;
-    text-align: center;
+    border: 1px solid #737373;
+    display: inline-block;
     font-size: 120%;
+    margin-right: 20px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    padding: 6px;
+    text-align: center;
 }
 
 .social h5 {
@@ -564,7 +645,7 @@ h4:after {
 }
 
 .box-grey p {
-    padding: 10px 0;
+    padding: 5px 0 20px;
 }
 
 .social h4 {
@@ -586,12 +667,16 @@ footer,
 }
 
 footer {
-    padding: 15px 0;
+    padding: 20px 0;
     margin-top: 100px;
 }
 
 .footer-text {
     text-align: center;
+}
+
+.footer-text p {
+    padding-top: 10px;
 }
 
 .footer-feat {
