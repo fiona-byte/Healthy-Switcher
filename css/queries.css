@@ -63,7 +63,7 @@
     .row{ padding: 0 4%; }
     .beneath h2 {
         position: relative;
-        bottom: -5.9rem;
+        bottom: -6.5rem;
     }
     .bg-subtext { width: 60%;}
     .bg-heading { font-size: 2.5rem; }
@@ -229,7 +229,7 @@
 
     .nav-brand {
         position: absolute;
-        top: 7%;
+        top: 5%;
         left: 7%;
     }
 
@@ -242,6 +242,7 @@
         font-size: 1.8rem; 
         width: 73%;
         margin-left: 15%;
+        padding-top: 120px;
     }
     .bg-subtext {
         width: 70%;
@@ -249,7 +250,7 @@
     } 
 
     #menu {
-        margin: 40px 660px 20px;
+        margin: 30px 660px 20px;
     }
     
     .bar {
@@ -293,7 +294,7 @@
 
     .nav-items {
         padding: 0;
-        margin: 0 655px;
+        margin: 0 625px;
         transition: 0.3s ease;
         display: none;
     }
@@ -465,7 +466,7 @@
     }
     .nav-brand {
         position: absolute;
-        top: 5.5%;
+        top: 4.5%;
         left: 7%;
         font-size: 70%;
     }
@@ -480,7 +481,7 @@
         z-index: 1;
         width: 0;
         height: 0; 
-        margin: 30px 660px 20px;
+        margin: 30px 410px 20px;
         background: radial-gradient(circle, #34c759, #10ac37);
         border-radius: 50%;
         transition: 0.3s ease;
@@ -502,7 +503,7 @@
 
     .nav-items {
         padding: 0;
-        margin: 0 655px;
+        margin: 0 290px;
         transition: 0.3s ease;
         display: none;
     }
