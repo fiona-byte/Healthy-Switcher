@@ -4,7 +4,7 @@
 @media only screen and (max-width: 1200px) {
     .beneath h2 {
         position: relative;
-        bottom: -6.3rem;
+        bottom: -6.8rem;
     }
 
     .row { padding: 0 4%; }
@@ -19,8 +19,16 @@
 
     .about .about-box { height: 520px;}
 
+    .box-grey h4{ font-size: 75%;}
+
+
     .dish-stars {margin: 0 10px 0 28px ;}
     .dish-stars .btn { margin-left: 30px; }
+    .dishes-icon {
+        height: 25px;
+        width: 25px;
+        padding: 0px;
+    }
 
     .image {
         height: 475px;
@@ -31,25 +39,40 @@
         height: 142px;
         width: 85%;
     }
+    .grey-box h5,
+    .green-box h5 {
+        margin: 0px 8px 3px;
+    }
+    .grey-image-box h5 {
+        margin: 1px 8px 0;
+    }
+    .grey-box h3,
+    .grey-image-box h3,
+    .green-box h3 {
+        width: 90%;
+        font-size: 70%;
+        margin-left: 5%;
+    }
     .date,
     .grey-box p,
     .green-box p {
-        bottom: 9%;
+        bottom: 19%;
     }
-    .grey-image-box .date {bottom: 9%;}
-    .grey-image-box p { bottom: 9%;}
+    .grey-image-box .date {bottom: 6%;}
+    .grey-image-box p { bottom: 6%;}
 
     .social .col {width: 26%;}
     .social .btn {
         position: absolute;
         top: -2%;
-        right: 10%;
-        padding: 4px 6px;
+        right: 9%;
+        padding: 4px 5px;
     }
     .social h4 {
-        margin-top: 10px;
-        font-size: 65%;
+        margin-top: 5px;
+        font-size: 50%;
     }
+    .social p { font-size: 65%}
     
     .social-icon {margin-right: 10px;}    
     .box-grey p { padding: 0 0 20px;}
@@ -94,7 +117,7 @@
     }
     .box-green p { font-size: 75%;}
     .box-grey { font-size: 115%;}
-    /* .box-grey h4 { font-size: 80%;} */
+    .green { font-size: 90%;}
 
     .how-it-works .col {
         width: 30%;
@@ -130,13 +153,6 @@
     .chef-dishes {
         width: 32%;
     }
-    /* .chef .chef-dish-img {
-        width: 120px;
-    }
-    .chef .chef-dish-imgs {
-        width: 48px !important;
-        margin: 0 3px;
-    } */
 
     .btn-small:link,
     .btn-small:visited,
@@ -229,9 +245,6 @@
     a[title] {
         color: #fff;
     }
-    /* .head-small {
-        font-size: 110%;
-    } */
     .beneath h2 {
         position: relative;
         bottom: -6rem;
@@ -486,7 +499,7 @@
     .beneath h2 {
         font-size: 200%;
         position: relative;
-        bottom: -4.9rem;
+        bottom: -5.3rem;
     }
     .nav-brand {
         position: absolute;
@@ -593,7 +606,7 @@
     .about .head-small {font-size: 68%;}
     .about h2 { 
         margin-top: 70px;
-        bottom: -4.6rem;
+        bottom: -5.1rem;
     }
     .about p { font-size: 70%; }
     .about-icon1,
@@ -646,7 +659,7 @@
     }
 
     .recipe .head-small {font-size: 75%;}
-    .recipe h2 {bottom: -4.6rem}
+    .recipe h2 {bottom: -5.1rem}
     .recipe .col:first-child {margin-left: 3px;}
     .recipe .col {
         width: 100%;
@@ -655,7 +668,10 @@
     .image { 
         height: 400px;
     }
-    .image h5 {margin: 25px auto;}
+    .image h5 {
+        margin: 25px auto;
+        width: 25%;
+    }
     .image h3 {
         margin-top: 70px;
         font-size: 100%;
@@ -704,7 +720,7 @@
     .green-box p {
         font-size: 60%;
         position: absolute;
-        bottom: 20%;
+        bottom: 12%;
         left: 25%;
     }
     .grey-box p,
@@ -714,11 +730,10 @@
         text-align: right;
         margin: 0 10px;
         position: absolute;
-        /* bottom: 5%;  */
         right: 5%;
     }
-    .grey-image-box p {bottom: 9%;}
-    .grey-image-box .date {bottom: 9%;}
+    .grey-image-box p {bottom: 1%;}
+    .grey-image-box .date {bottom: 1%;}
 
     .social .col {
         width: 100%;

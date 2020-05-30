@@ -37,14 +37,11 @@ h2:after {
     background: #34c759;
     content: " ";
     width: 60px;
-    /* margin-top: 10px; */
     margin: 0 auto;
 }
 
 h3 {
     font-size: 65%;
-    /* text-transform: capitalize;
-    text-align: center; */
 }
 
 p {
@@ -340,6 +337,10 @@ a[title] {
     margin: 20px auto 0;
 }
 
+.green {
+    font-size: 80%;
+}
+
 .box-grey h4 {
     font-size: 85%;
 }
@@ -379,6 +380,10 @@ h4:after {
 
 .dish-stars {
     margin: 0 10px 0 30px;
+}
+
+.dishes img {
+    width: 100%;
 }
 
 .icon,
@@ -445,8 +450,7 @@ h4:after {
 
 .chef h5 {
     font-size: 80%;
-    /* margin-left: 10%;
-    margin-bottom: 30px; */
+
 }
 
 .chef small {
@@ -561,7 +565,6 @@ h4:after {
     text-align: right;
     margin: 0 10px;
     position: absolute;
-    /* bottom: 5%;  */
     right: 5%;
 }
 
@@ -654,7 +657,7 @@ hr {
     width: 100%;
     background: #303030;
     margin: 2px 0 10px;
-    opacity: 0.3;
+    opacity: 0.6;
 }
 
 .social .box-grey {
