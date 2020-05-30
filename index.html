@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Healthy Switcher</title>
-    <!-- <link rel="stylesheet" href="./css/normalize.css"> -->
+
+    <!--             Bootstrap Stylesheet               -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
 
     <!--       CSS Library        -->
     <link rel="stylesheet" href="./css/Grid.css">
@@ -21,6 +23,7 @@
     <!--             Custom Stylesheet               -->
     <link rel="stylesheet" href="./css/style.css">
 
+    <!--              Media Queries                -->
     <link rel="stylesheet" href="./css/queries.css">
 
 
@@ -40,16 +43,16 @@
                 
                 <ul class="nav-items" id="nav-items">
                     <li>
-                        <a href="#" title="menu">Menu</a>
+                        <a href="#dishes" title="menu">Menu</a>
                     </li>
                     <li>
-                        <a href="#">Recipie</a>
+                        <a href="#recipe">Recipe</a>
                     </li>
                     <li>
-                        <a href="#">Chef</a>
+                        <a href="#chef">Chef</a>
                     </li>
                     <li>
-                        <a href="#">Contacts</a>
+                        <a href="#contact">Contacts</a>
                     </li>
                 </ul>
             </div>
@@ -129,7 +132,7 @@
           </div>
     </section>
 
-    <section class="dishes">
+    <section class="dishes" id="dishes">
         <div class="beneath">
             <h2>Dishes</h2>
         </div>
@@ -233,76 +236,91 @@
         </div>
     </section>
 
-    <section class="chef">
+    <section class="chef" id="chef">
         <div class="container">
             <div class="beneath">
                 <h2>Chefs</h2>
             </div>
             <h3 class="head-small">This Month's chefs</h3>
-            <div class="row">
-                <div class="col span-1-of-3 chef-img">
-                    <img src="./images/chef1.png" alt="gregory flores">
-                    <div class="chef-text">
-                        <h3>Gregory Flores</h3>
-                        <p>Chief of the cold</p>
-                    </div>
-                </div>  
+                        <!-- Page Features -->
+            <div class="roow text-center">
 
-                <div class="col span-1-of-3 chef-img">
-                    <img src="./images/chef2.png" alt="Annette Cooper">
-                    <div class="chef-text">
-                        <h3>Annette Cooper</h3>
-                        <p>Chief of the hot</p>
+            <div class="col-lg-4 col-md-4 my-5">
+                <div class="roow">
+                    <div class="col-3">
+                    <img class="card-img-top rounded-circle" style="height:70px;width:70px;" src="./images/chef1.png" alt="">
                     </div>
-                </div>    
-                <div class="col span-1-of-3 chef-img">
-                    <img src="./images/chef3.png" alt="Greg Fox">
-                    <div class="chef-text">
-                        <h3>Greg Fox</h3>
-                        <p>Chief of macro kitchen</p>
+                    <div class="col-9 text-left">
+                        <h5 class="text-white mt-3 pb-0 mb-0">Gregory Flores</h5>
+                        <small class="text-secondary">Chef of the cold</small>
+                    </div>
+                    </div>
+                    
+                    <div class="roow">
+                    <div class="col-12 mt-4 mx-auto">
+                    <div class="roow">
+                        <div class="col-6"><img class="img-fluid" src="./images/chef-dish1.png" alt=""></div>
+                        <div class="col-3"><img class="img-fluid" src="./images/chef-dish2.png" alt=""></div>
+                        <div class="col-3"><img class="img-fluid" src="./images/chef-dish3.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+                    
+            </div>
+
+
+            <div class="col-lg-4 col-md-4 my-5">
+                <div class="roow mx-auto">
+                    <div class="col-3">
+                    <img class="card-img-top rounded-circle" style="height:70px;width:70px;" src="./images/chef2.png" alt="">
+                    </div>
+                    <div class="col-9 text-left">
+                        <h5 class="text-white mt-3 pb-0 mb-0">Annette Cooper</h5>
+                        <small class="text-secondary">Chef of the hot</small>
+                    </div>
+                    </div>
+                    
+                    <div class="roow">
+                    <div class="col-12 mt-4 mx-auto">
+                    <div class="roow">
+                        <div class="col-6"><img class="img-fluid" src="./images/chef-dish4.png" alt=""></div>
+                        <div class="col-3"><img class="img-fluid" src="./images/chef-dish5.png" alt=""></div>
+                        <div class="col-3"><img class="img-fluid" src="./images/chef-dish6.png" alt=""></div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row chef-row">
-                <div class="col span-1-of-3 chef-dishes">
-                  <div class="col span-1-of-3">
-                    <img src="./images/chef-dish1.png" class="chef-dish-img" alt="Dish 1">
-                  </div>
-                  <div class="col span-1-of-3">
-                    <img src="./images/chef-dish2.png" class="chef-dish-imgs" alt="Dish 2" style="padding-left: 47px;">
-                  </div>
-                  <div class="col span-1-of-3">
-                    <img src="./images/chef-dish3.png" class="chef-dish-imgs" alt="Dish 3">
+            
+            
+            <div class="col-lg-4 col-md-4 my-5">
+                <div class="roow mx-auto">
+                    <div class="col-3">
+                    <img class="card-img-top rounded-circle" style="height:70px;width:70px;" src="./images/chef3.png" alt="">
+                    </div>
+                    <div class="col-9 text-left">
+                        <h5 class="text-white mt-3 pb-0 mb-0">Greg fox</h5>
+                        <small class="text-secondary">Chef macro kitchen</small>
+                    </div>
+                    </div>
+                    
+                    <div class="roow">
+                    <div class="col-12 mt-4 mx-auto">
+                    <div class="roow">
+                        <div class="col-6"><img class="img-fluid" src="./images/chef-dish7.png" alt=""></div>
+                        <div class="col-3"><img class="img-fluid" src="./images/chef-dish8.png" alt=""></div>
+                        <div class="col-3"><img class="img-fluid" src="./images/chef-dish9.png" alt=""></div>
+                        </div>
+                    </div>
+                    
+                    </div>
                 </div>
+
             </div>
-            <div class="row chef-row">
-                <div class="col span-1-of-3 chef-dishes" style="margin-left: 27px;">
-                  <div class="col span-1-of-3">
-                    <img src="./images/chef-dish4.png" class="chef-dish-img" alt="Dish 4">
-                  </div>
-                  <div class="col span-1-of-3">
-                    <img src="./images/chef-dish5.png" class="chef-dish-imgs" alt="Dish 5" style="padding-left: 47px;">
-                  </div>
-                  <div class="col span-1-of-3">
-                    <img src="./images/chef-dish6.png" class="chef-dish-imgs" alt="Dish 6">
-                </div>
-            </div>
-            <div class="row chef-row">
-                <div class="col span-1-of-3 chef-dishes">
-                  <div class="col span-1-of-3">
-                    <img src="./images/chef-dish7.png" class="chef-dish-img" alt="Dish 7">
-                  </div>
-                  <div class="col span-1-of-3">
-                    <img src="./images/chef-dish8.png" class="chef-dish-imgs" alt="Dish 8" style="padding-left: 47px;">
-                  </div>
-                  <div class="col span-1-of-3">
-                    <img src="./images/chef-dish9.png" class="chef-dish-imgs" alt="Dish 9">
-                  </div>
-                </div>  
-            </div>
+            <!-- /.row -->
+        </div>
     </section>
 
-    <section class="recipe">
+    <section class="recipe" id="recipe">
         <div class="beneath">
             <h2>Recipe</h2>
                 <h3 class="head-small">Recipes from our chefs</h3>
@@ -338,7 +356,7 @@
         </div>
     </section>
 
-    <div class="social">
+    <div class="social" id="contact">
         <div class="beneath">
             <h2>Social</h2>
         </div>

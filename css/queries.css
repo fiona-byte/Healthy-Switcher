@@ -63,18 +63,14 @@
     .row{ padding: 0 4%; }
     .beneath h2 {
         position: relative;
-        bottom: -6.5rem;
+        bottom: -6rem;
     }
     .bg-subtext { width: 60%;}
     .bg-heading { font-size: 2.5rem; }
     
-
-    /* .nav-items {
-        width: 30%;
-    } */
     .nav-brand {
         position: absolute;
-        top: 4.5%;
+        top: 5.5%;
         left: 10%;
         font-size: 70%;
     }
@@ -113,8 +109,16 @@
     }
 
     .dishes .col {
-        width: 30%;
-        margin-left: 15%;
+        width: 40%;
+        margin-left: 30%;
+    }
+    .dishes-icon {
+        height: 25px;
+        width: 25px;
+        padding: 4px;
+    }
+    .dish-stars {
+        margin: 0 40px 10px 35px;
     }
     .box h3 { font-size: 110%;}
     .box p { font-size: 70%;}
@@ -138,7 +142,7 @@
     .btn-small:visited,
     .btn-transparent:link,
     .btn-transparent:visited {
-        padding: 5px 5px;
+        padding: 10px 12px;
         margin-left: 40px;
         font-size: 60%;
     }
@@ -182,9 +186,10 @@
     }
     .social .btn {
         position: absolute;
-        top: -1%;
+        top: -2%;
         right: 11%;
         font-size: 50%;
+        padding: 8px 7px;
     }
     .social .box-grey,
     .social .box-green {
@@ -223,6 +228,13 @@
 
     a[title] {
         color: #fff;
+    }
+    /* .head-small {
+        font-size: 110%;
+    } */
+    .beneath h2 {
+        position: relative;
+        bottom: -6rem;
     }
 
     .bg-text::before { display: none;}
@@ -384,6 +396,11 @@
     .dish-stars {
         margin: 0 10px 10px 30px;
     }
+    .dishes-icon {
+        height: 25px;
+        width: 25px;
+        padding: 4px;
+    }
 
     .box-grey,
     .box-green {
@@ -398,16 +415,17 @@
         font-size: 70%;
     }
 
+    .recipe .col:first-child {margin-left: 30px;}
     .recipe img{ height: auto;}
     .image h5 {
         text-transform: uppercase;
         font-size: 60%;
         margin-left: 41.5%;
-        width: 17%;
+        width: 15%;
     }
     
-    .image h5 {
-        width: 25%;
+    .recipe p {
+        margin-top: 80px;
     }
     
     .image h3 {
@@ -418,9 +436,16 @@
     }
     
     .grey-box h5, 
-    .green-box h5 {
+    .green-box h5,
+    .grey-image-box h5 {
         font-size: 60%;
-        width: 20%;
+        width: 12%;
+        margin-left: 10%;
+    }
+    .date,
+    .grey-box p,
+    .green-box p {
+        bottom: 22%;
     }
     .grey-box h3, 
     .green-box h3 {
@@ -575,7 +600,7 @@
     .about-icon2 { opacity: 0;}
     .about img {
         width: 90%;
-        margin: 0 4% 0 6% !important;
+        margin: 0 0 0 10% !important;
     }
 
     .how-it-works .col {
@@ -620,7 +645,9 @@
         left: 31%;
     }
 
-    .recipe .col:first-child {margin-left: 20px;}
+    .recipe .head-small {font-size: 75%;}
+    .recipe h2 {bottom: -4.6rem}
+    .recipe .col:first-child {margin-left: 3px;}
     .recipe .col {
         width: 100%;
         margin-left: 0;

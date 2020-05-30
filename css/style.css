@@ -143,15 +143,15 @@ header {
     color: #fff;
 }
 
-/* nav::after {
+.bg-text::before {
     display: block;
     height: 2px;
     content: " ";
     width: 100%;
     background: #fff;
     opacity: 0.1;
-    margin-bottom: 18px;
-} */
+    margin-top: 50px;
+}
 
 .bg-text {
     height: 100vh;
@@ -294,7 +294,7 @@ a[title] {
     display: inline-block;
     height: 40px;
     width: 40px;
-    padding: 6px;
+    padding: 4px;
     position: absolute;
     bottom: 31%;
 }
@@ -389,7 +389,7 @@ h4:after {
     margin: 30px 0;
 }
 
-.dish-stars .btn { margin-left: 60px; }
+.dish-stars .btn { margin-left: 50px; }
 
 .box {
     background: #262626;
@@ -405,7 +405,7 @@ h4:after {
     font-size: 90%;
     height: 25px;
     width: 25px;
-    padding: 0px;
+    padding: 2px;
     position: absolute;
     right: 4%;
     top: 3%;
@@ -443,25 +443,14 @@ h4:after {
 
 /*        Chefs section       */
 
-/* .chef .col {
-    width: 80%;
-    margin-left: 10%;
-    margin-bottom: 30px;
-} */
-
-.chef .col {
-    width: 0 auto;
+.chef h5 {
+    font-size: 80%;
+    /* margin-left: 10%;
+    margin-bottom: 30px; */
 }
 
-.chef-img {
-     position: relative;
-}
-
-.chef-text {
-    display: inline-block;
-    position: absolute;
-    top: 28%;
-    left: 24%;
+.chef small {
+    font-size: 60%;
 }
 
 /*               Recipe Section                   */
@@ -498,7 +487,7 @@ h4:after {
     font-size: 120%;
     height: 35px;
     width: 35px;
-    padding: 6px;
+    padding: 3px;
     position: absolute;
     right: 4%;
     top: 5%;
@@ -675,7 +664,7 @@ hr {
 .social .btn {
     position: absolute;
     top: -4%;
-    right: 13%;
+    right: 10%;
 }
 
 .social-icon {
@@ -691,6 +680,7 @@ hr {
 .social h5 {
     width: 70%;
     margin-left: 15%;
+    font-size: 80%;
 }
 
 .box-grey p {
