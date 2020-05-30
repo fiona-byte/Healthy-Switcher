@@ -163,7 +163,7 @@ header {
     letter-spacing: 0.2em;
     font-size: 3rem;
     width: 70%;
-    padding-top: 100px;
+    padding-top: 8%;
     margin-left: 15%;
     font-weight: 600;
 }
@@ -253,7 +253,6 @@ a[title] {
     top: 78%;
     left: 12%;
     right: 12%;
-    /* height: 30px; */
     text-align: center;
     line-height: 120%;
 }
@@ -295,9 +294,9 @@ a[title] {
     display: inline-block;
     height: 40px;
     width: 40px;
-    padding: 4.5px;
+    padding: 6px;
     position: absolute;
-    bottom: 26%;
+    bottom: 31%;
 }
 
 .about-icon1 {
