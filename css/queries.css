@@ -595,8 +595,12 @@
         top: 58%;
     }
     .features p {
-        font-size: 60%;
+        font-size: 58%;
         padding-bottom: 5px;
+    }
+    .features h3 { 
+        font-size: 60%;
+        margin-bottom: 0.2rem;
     }
     .feat-icon { 
         margin: 12px 0 0;

@@ -179,7 +179,7 @@ header {
 .nav-items {
     float: right;
     list-style: none;
-    margin-top: 15px;
+    margin-top: 8px;
     margin-right: 25px;
 }
 
@@ -342,7 +342,7 @@ a[title] {
 }
 
 .box-grey h4 {
-    font-size: 85%;
+    font-size: 80%;
 }
 
 .box-grey {
@@ -410,7 +410,7 @@ h4:after {
     font-size: 90%;
     height: 25px;
     width: 25px;
-    padding: 2px;
+    padding: 0px;
     position: absolute;
     right: 4%;
     top: 3%;
@@ -491,7 +491,7 @@ h4:after {
     font-size: 120%;
     height: 35px;
     width: 35px;
-    padding: 3px;
+    padding: 2px;
     position: absolute;
     right: 4%;
     top: 5%;
@@ -528,7 +528,7 @@ h4:after {
 
 .recipe p {
     text-align: center;
-    margin-top: 65px;
+    margin-top: 60px;
 }
 
 .grey-box h3,
@@ -556,7 +556,7 @@ h4:after {
 .green-box p {
     font-size: 60%;
     position: absolute;
-    bottom: 20%;
+    bottom: 12%;
     left: 25%;
 }
 
